@@ -3,7 +3,7 @@ import agendaData from "./data/agenda.json";
 
 export default function EventSchedule() {
   return (
-    <div className=" p-5">
+    <div>
       <h1>Event Scheddule</h1>
       {agendaData.map(({ time, title, speaker, description, card }) => (
         <AgedanCards
