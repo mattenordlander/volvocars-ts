@@ -20,6 +20,18 @@ body,html {
  width: 100% !important;
 }
 
+.btn{
+font-weight: bold;
+background-color: #F1F5F9;
+padding:1.5rem 2rem;
+border-radius: 10px;
+transition:.3s
+}
+
+.btn:hover{
+background-color: #d0d3d7;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
