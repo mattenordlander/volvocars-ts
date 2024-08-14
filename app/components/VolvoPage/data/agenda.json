@@ -1,0 +1,50 @@
+[
+    {
+      "time": "12:30",
+      "title": "Grand reveal",
+      "description": "Meet the latest addition to our all-electric Volvo Cars family.",
+      "card": 1,
+      "position": 0,
+      "speaker": ""
+    },
+    {
+      "time": "12:40",
+      "title": "Room for life",
+      "description": "For you on the business commute and for the family on the trip.",
+      "card": 2,
+      "position": 434,
+      "speaker": "Jim Rowan"
+    },
+    {
+      "time": "12:50",
+      "title": "A safe space for all",
+      "description": "Bringing our 96 years of safety knowledge into the MPV segment.",
+      "card": 3,
+      "position": 960,
+      "speaker": "Åsa Haglund"
+    },
+    {
+      "time": "12:55",
+      "title": "Room for ultimate comfort",
+      "description": "Designed for your wellbeing and peace of mind.",
+      "card": 4,
+      "position": 1260,
+      "speaker": "August Zhenhao Wu"
+    },
+    {
+      "time": "13:05",
+      "title": "Scandinavian home on the move",
+      "description": "Presenting premium Scandinavian design in every detail.",
+      "card": 5,
+      "position": 1951,
+      "speaker": "Sophie Jingyao Li"
+    },
+    {
+      "time": "13:15",
+      "title": "Premium experience wherever you go",
+      "description": "Unveiling the next level of luxury from Volvo Cars.",
+      "card": 6,
+      "position": 2571,
+      "speaker": "Xiaolin Yuan"
+    }
+  ]
