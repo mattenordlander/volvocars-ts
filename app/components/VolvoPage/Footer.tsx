@@ -1,5 +1,9 @@
 'use client'
-export default function footer(){
+
+type footerProp = {
+    footerCookie:string
+}
+export default function footer({footerCookie}:footerProp){
     return(
         <div className="flex flex-col gap-5 pb-16">
 <button className="btn ">Add to calendar</button>
@@ -9,7 +13,7 @@ export default function footer(){
     <button className="btn">In</button>
 </div>
 <div className="text-center">
-    Copyright &#169; 2023 Volvo Car Corporation <br /> (or its affiliates or licensors)
+    {footerCookie}
 </div>
         </div>
     )
