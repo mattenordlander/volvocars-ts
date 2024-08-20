@@ -27,10 +27,12 @@ const [language, setLanguage] = useState(pageLanguage.en[0]);
     return(
 <>
 <Header toggleLanguage={toggleLanguage}/>
-<MainContent title = {language.title} description={language.description}/>
-<div className="px-7">
-    <EventSchedule />
-    <Footer footerCookie={language.footerCookie}/>
+<div className="max-w-7xl flex flex-col align-center">
+    <MainContent title = {language.title} description={language.description}/>
+    <div className="px-7">
+        <EventSchedule />
+        <Footer footerCookie={language.footerCookie}/>
+    </div>
 </div>
 </>
     )
