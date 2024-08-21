@@ -1,0 +1,50 @@
+[
+    {
+      "time": "12:30",
+      "title": "Storslagen avslöjning",
+      "description": "Möt det senaste tillskottet i vår helt elektriska Volvo Cars-familj.",
+      "card": 1,
+      "position": 0,
+      "speaker": ""
+    },
+    {
+      "time": "12:40",
+      "title": "Utrymme för livet",
+      "description": "För dig på affärspendlingen och för familjen på resan.",
+      "card": 2,
+      "position": 434,
+      "speaker": "Jim Rowan"
+    },
+    {
+      "time": "12:50",
+      "title": "En säker plats för alla",
+      "description": "Tar våra 96 år av säkerhetskunskap in i MPV-segmentet.",
+      "card": 3,
+      "position": 960,
+      "speaker": "Åsa Haglund"
+    },
+    {
+      "time": "12:55",
+      "title": "Utrymme för ultimat komfort",
+      "description": "Designad för ditt välbefinnande och sinnesro.",
+      "card": 4,
+      "position": 1260,
+      "speaker": "August Zhenhao Wu"
+    },
+    {
+      "time": "13:05",
+      "title": "Skandinaviskt hem på språng",
+      "description": "Presenterar premium skandinavisk design i varje detalj.",
+      "card": 5,
+      "position": 1951,
+      "speaker": "Sophie Jingyao Li"
+    },
+    {
+      "time": "13:15",
+      "title": "Premiumupplevelse var du än går",
+      "description": "Avtäckning av nästa nivå av lyx från Volvo Cars.",
+      "card": 6,
+      "position": 2571,
+      "speaker": "Xiaolin Yuan"
+    }
+]

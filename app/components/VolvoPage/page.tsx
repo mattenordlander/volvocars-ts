@@ -14,23 +14,23 @@ export default function Page(){
 const [eng, setEng] = useState<boolean>(true);
 const [language, setLanguage] = useState(pageLanguage.en[0]);
 
-    const toggleLanguage = ()=>{
-        setEng(!eng)
-        if(!eng) setLanguage(pageLanguage.swe[0]);
-        if (eng) setLanguage(pageLanguage.en[0]);
-    };
-
-    useEffect(()=>{
-        toggleLanguage();
-    },[])
+  const toggleLanguage = ()=>{
+    setEng((prevEng) =>{
+        const newEng = !prevEng;
+        setLanguage(newEng ? pageLanguage.en[0] : pageLanguage.swe[0]);
+        return newEng
+    })
+  }
 
     return(
 <>
 <Header toggleLanguage={toggleLanguage}/>
-<MainContent title = {language.title} description={language.description}/>
-<div className="px-7">
-    <EventSchedule />
-    <Footer footerCookie={language.footerCookie}/>
+<div className="m-auto xl:w-9/12">
+    <MainContent title = {language.title} description={language.description}/>
+    <div className="px-7">
+        <EventSchedule eng={eng}/>
+        <Footer footerCookie={language.footerCookie}/>
+    </div>
 </div>
 </>
     )
