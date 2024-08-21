@@ -1,7 +1,20 @@
+import { useEffect, useState } from "react";
 import AgedanCards from "../AgendaCards";
-import agendaData from "./data/agenda.json";
+import agendaDataEn from "./data/agendaEn.json";
+import agendaDataSwe from "./data/agendaSwe.json";
 
-export default function EventSchedule() {
+type EventScheduleProp ={
+  eng:boolean
+}
+
+export default function EventSchedule({eng}:EventScheduleProp) {
+
+  const [agendaData, setAgendaData] = useState(agendaDataEn);
+
+  useEffect(()=>{
+    eng ? setAgendaData(agendaDataEn) : setAgendaData(agendaDataSwe)
+  },[eng])
+
   return (
     <div>
       <h1>Event Scheddule</h1>
