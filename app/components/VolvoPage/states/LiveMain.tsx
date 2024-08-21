@@ -2,7 +2,7 @@ import VideoPlayer from '../../VideoPlayer/VideoPlayer';
 import React from 'react';
 import videojs from 'video.js';
 
-export default function LiveMain() {
+const LiveMain = React.memo( ()=> {
   const playerRef = React.useRef(null);
 
   const videoJsOptions = {
@@ -33,4 +33,6 @@ export default function LiveMain() {
       <VideoPlayer options={videoJsOptions} onReady={handlePlayerReady} />
     </div>
   );
-}
+});
+
+export default LiveMain;
