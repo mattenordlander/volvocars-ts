@@ -1,6 +1,7 @@
 import videojs from 'video.js';
 import React from 'react';
 import 'video.js/dist/video-js.css';
+import '../VideoPlayer/index.css'
 
 const VideoPlayer = ({ options, onReady }) => {
   const videoRef = React.useRef(null);
@@ -35,7 +36,7 @@ const VideoPlayer = ({ options, onReady }) => {
   }, []);
 
   return (
-    <div data-vjs-player className='w-full'>
+    <div data-vjs-player className='w-full tecviz-theme-scandinavian'>
       <div ref={videoRef} />
     </div>
   );
