@@ -11,8 +11,10 @@ const LiveMain = React.memo( ()=> {
     responsive: true,
     fluid: true,
     sources: [{
-      src: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
-      type: 'video/mp4'
+      // src: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+      // type: 'video/mp4'
+      src: 'https://cdn.tecviz.net/hls/lrf/240522/hi/odm-539-4709.m3u8',
+      type: 'application/x-mpegURL'
     }]
   };
 
