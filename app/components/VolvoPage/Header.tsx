@@ -1,6 +1,5 @@
 "use client"
 
-import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import sweFlag from '../../../public/images/swe-flag.svg';
 import engFlag from '../../../public/images/flag-eng.svg';
