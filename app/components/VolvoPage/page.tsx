@@ -43,7 +43,7 @@ useEffect(() => {
 
     return(
     <div className={`m-auto ${state === 'before' ? '' : 'xl:w-8/12'}`}>
-<Header toggleLanguage={toggleLanguage}/>
+<Header toggleLanguage={toggleLanguage} eng={eng}/>
     <MainContent state={state} title = {language.title} description={language.description}/>
     <div className="px-7">
         <EventSchedule eng={eng} state={state}/>
