@@ -1,6 +1,5 @@
 "use-client";
 
-import { useEffect, useState } from "react";
 import BeforeMain from "./states/BeforeMain";
 import LiveMain from "./states/LiveMain";
 
